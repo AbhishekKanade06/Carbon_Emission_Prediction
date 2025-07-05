@@ -1,8 +1,8 @@
 # 🌍 Carbon Emissions Prediction Using Machine Learning
 
 ## 👤 Student Details
-- **Name:** [Your Name]
-- **Student ID:** [Your Student ID]
+- **Name:** Abhishek Kanade
+- **Student AICTE ID:** STU682d9fec69f801747820524
 
 ---
 
@@ -25,7 +25,7 @@ This project predicts **CO₂ emissions per capita** for different countries usi
 - Scikit-learn (Random Forest, Feature Selection, Grid Search)
 - Matplotlib & Seaborn for visualization
 - Joblib for model serialization
-- Jupyter Notebook / Kaggle
+- Stramlit
 
 ---
 
@@ -61,16 +61,14 @@ A **Random Forest Regressor** model was trained using historical development ind
 - **Regression Plot**: Predicted vs Actual emissions.
 - **Line Chart**: Forecasted trends per country.
 
-![Regression Plot Sample](path/to/regression_plot.png)
-![Forecast Line Chart](path/to/forecast_plot.png)
+
 
 ---
+## 📲 Live Application
 
-## 📁 Output Screenshot
-Include visuals of:
-- Final regression plot
-- Forecast line chart
-- Console outputs of R², RMSE
+Explore the live app for real-time country-wise forecasts:
+
+🔗 [**Launch the App**](https://projects-fuufzehbnggmzltaari9hj.streamlit.app)
 
 ---
 
@@ -78,3 +76,5 @@ Include visuals of:
 The trained model was saved using `joblib`:
 ```python
 joblib.dump(rf_best_model, 'forecasting_co2_emmision.pkl')
+
+
