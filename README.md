@@ -1,11 +1,5 @@
 # 🌍 Carbon Emissions Prediction Using Machine Learning
 
-## 👤 Student Details
-- **Name:** Abhishek Kanade
-- **Student AICTE ID:** STU682d9fec69f801747820524
-
----
-
 ## 📌 Project Overview
 This project predicts **CO₂ emissions per capita** for different countries using historical economic, demographic, and environmental indicators. The goal is to help **policymakers** anticipate future emissions trends and implement effective measures to combat **climate change**.
 
